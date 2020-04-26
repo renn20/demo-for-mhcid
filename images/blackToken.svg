@@ -1,0 +1,51 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="red" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <style type="text/css"><![CDATA[
+      .flip-card {
+}
+
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+
+}
+
+
+.flip-card:active .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front {
+}
+
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+    ]]></style>
+  </defs>
+  <g class="flip-card" >
+        <g class="flip-card-inner">
+            <g class="flip-card-front">
+                <circle cx="32" cy="32" r="32" fill="black"/>
+            </g>
+            <g class="flip-card-back">
+                <circle  cx="32" cy="32" r="32" fill="red"/>
+            </g>
+        </g>
+</g>
+</svg>
