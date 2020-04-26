@@ -1,7 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Merriweather&display=swap');
 body {
-  background-color: grey;;
+  font-family: 'Merriweather', serif;;
+  background-color:white;
 }
-div {
-  font-family: 'Roboto', sans-serif;
+h3 {
+  font-family: 'Lora', serif; ;
+}
+div { 
+  padding: 10px;
+  line-height: 30px;
+}
+.row1 {
+  height: auto;
+}
+.row2-1 {
+}
+.row2-2 {
+  
+}
+.row2-3 {
+  background-color: white;
+}
+.row3 {
+  padding: 20px;
+  background-color: white;
+}
+
+.info {
+  font-size: 16px;
+
 }
